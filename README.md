@@ -1,13 +1,9 @@
 # nb64
 New Base64 encoding friendly to ASCII characters and Chinese Hanzi.
 
-# nb64
-New Base64 encoding friendly to ASCII characters and Chinese Hanzi.
-
 New base64 主要用于对 英文字符 (utf8 单字节) 和 中文 (utf8 三字节) 字符串编码，使之可以
 安全地放置在 URL 中。相比标准 Base64，编码更短。英文字符串，编码后长度约是原串的 7/6。中文字
 符串，编码后长度等于原串长度加 2。
-
 
 
 ### 编码示例
